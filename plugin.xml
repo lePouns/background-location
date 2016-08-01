@@ -152,7 +152,7 @@
 
     <platform name="ios">
         <!-- required background modes:  App registers for location updates -->
-        <preference name="ALWAYS_USAGE_DESCRIPTION" default="This app requires background location tracking" />
+        <preference name="ALWAYS_USAGE_DESCRIPTION" default="FUCK YOU OK ? This app requires background location tracking" />
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
             <string>$ALWAYS_USAGE_DESCRIPTION</string>
         </config-file>
