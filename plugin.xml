@@ -152,7 +152,7 @@
 
     <platform name="ios">
         <!-- required background modes:  App registers for location updates -->
-        <preference name="ALWAYS_USAGE_DESCRIPTION" default="Cette application nécessite la localisation en fond de tâche pour permettre à vos amis de vous retrouver pendant les Fêtes de Wallonie" />
+        <preference name="ALWAYS_USAGE_DESCRIPTION" default="oki ?" />
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
             <string>$ALWAYS_USAGE_DESCRIPTION</string>
         </config-file>
