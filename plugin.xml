@@ -152,9 +152,9 @@
 
     <platform name="ios">
         <!-- required background modes:  App registers for location updates -->
-        <preference name="ALWAYS_USAGE_DESCRIPTION" default="oki ?" />
+        <preference name="ALWAYS_USAGE_DESCRIPTION" default="This app requires background location tracking" />
         <config-file target="*-Info.plist" parent="NSLocationAlwaysUsageDescription">
-            <string>$ALWAYS_USAGE_DESCRIPTION</string>
+            <string>Cette application nécessite la localisation en fond de tâche pour permettre à vos amis de vous retrouver pendant les Fêtes de Wallonie</string>
         </config-file>
 
         <config-file target="*-Info.plist" parent="UIBackgroundModes">
